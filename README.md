@@ -6,7 +6,7 @@ I revised/refurbished some parts of his library to better suit the needs of my c
 
 So for the full documentation please see his [github account](https://github.com/howardabrams/node-mocks-http).
 
-## Issues with node-mocks.http
+## Issues with node-mocks-http
 
 1. EventEmitter was not triggered whenever you perform `end` on the response.
  ```javascript
@@ -32,7 +32,7 @@ So for the full documentation please see his [github account](https://github.com
 3. No content negotiation. When you set the header `content-type` as `application/json` you should expect a json object
 whenever you fetch the body of the response.
 
-Old fashion:
+Old method:
 ```javascript
 // If data is empty JSON.parse() will throw an exception :(
 var data = response._getData();
