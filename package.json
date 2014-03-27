@@ -1,0 +1,38 @@
+{
+  "author": {
+    "name": "Niels Clauwers"
+  },
+  "name": "http-mocks",
+  "description": "Mock 'http' objects for testing inspired by node-mocks-http",
+  "version": "0.1.0",
+  "homepage": "http://github.com/skyke/http-mocks",
+  "keywords": [
+    "mock",
+    "stub",
+    "dummy",
+    "nodejs",
+    "js",
+    "testing",
+    "test",
+    "http",
+    "http mock",
+    "request",
+    "response"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/skyke/http-mocks.git"
+  },
+  "main": "./lib/http-mocks.js",
+  "engines": {
+    "node": ">=0.6"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/skyke/http-mocks/issues"
+  },
+  "licenses" : [ {
+        "type" : "MIT"
+        , "url" : "http://raw.githubusercontent.com/skyke/http-mocks/master/LICENSE"
+  }]
+}
